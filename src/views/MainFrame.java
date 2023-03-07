@@ -1,8 +1,7 @@
 package views;
 
-import com.sun.tools.javac.Main;
-import views.Panels.ContainerGrammar;
-import views.Panels.MainMenuPanel;
+import views.panels.ContainerGrammar;
+import views.panels.MainMenuPanel;
 
 import javax.swing.*;
 import java.awt.*;

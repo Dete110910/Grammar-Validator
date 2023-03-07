@@ -13,7 +13,7 @@ public class MenuButton extends JButton {
         super(buttonText);
         this.setBackground(Color.decode("#38A3A5"));
         this.setForeground(Color.WHITE);
-        this.setFont(ConstantsGUI.MENU_BUTTONS);
+        this.setFont(ConstantsGUI.FONT_MENU_BUTTONS);
         this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
         this.setActionCommand(actionCommand);
         this.addActionListener(listener);

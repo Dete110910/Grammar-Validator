@@ -1,4 +1,4 @@
-package views.Panels;
+package views.panels;
 
 import views.MenuButton;
 import views.UtilitiesGUI;
@@ -17,7 +17,7 @@ public class MainMenuPanel extends JPanel {
 
     public  MainMenuPanel(ActionListener listener){
         this.setLayout(new GridBagLayout());
-        this.setBackground(Color.decode("#fffff"));
+        this.setBackground(Color.decode("#22577A"));
         this.setSize(WIDTH, HEIGHT);
         this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
         this.initComponents(listener);
